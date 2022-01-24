@@ -1,0 +1,6 @@
+create table employee(
+  emp_id number(5) not null,
+  firstname varchar(20),
+  lastname varchar(20),
+  hiredate date default sysdate not null
+  );
