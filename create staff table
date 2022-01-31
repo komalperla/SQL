@@ -1,0 +1,5 @@
+create table Staff(
+    staff_id number primary key,
+    staff_name varchar(30),
+    department_id number references department(department_id)
+);
